@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  border: 2px solid #3132d2;
+  background-color: #d9eeeb;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.infoWrapper {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.infoWrapper * {
+  margin-bottom: 19px;
+}
+
+.infoWrapper > *:first-child {
+  margin-right: 40px;
+}
+
+.textWrapper > *:last-child {
+  margin-bottom: 0;
+}
+
+.buttonWrapper > *:first-child {
+  margin-right: 16px;
+}
+
+.progress {
+  margin-top: 30px;
+}
